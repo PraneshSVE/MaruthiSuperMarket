@@ -13,7 +13,7 @@ export default function PaymentModal({ isOpen, setIsOpen, price, buyNowFunction,
       amount: price * 100,
       currency: "INR",
       name: "Maruthi SuperMarket",
-      description: "Food Orders",
+      description: "Grocery Shop",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cirila-%D0%9C-majuskla.svg/640px-Cirila-%D0%9C-majuskla.svg.png",
       handler: () => {
